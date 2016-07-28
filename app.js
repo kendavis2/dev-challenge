@@ -8,7 +8,7 @@ console.log("trying...");
 const server = new Hapi.Server();
 server.connection({ 
     host: 'localhost', 
-    port: 8080 
+    port: process.env.PORT || 5000 
 });
 
 // Add the route
