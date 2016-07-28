@@ -1,0 +1,22 @@
+{
+  "name": "dev-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kendavis2/dev-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kendavis2/dev-challenge/issues"
+  },
+  "homepage": "https://github.com/kendavis2/dev-challenge#readme",
+  "dependencies": {
+    "hapi": "^13.5.0"
+  }
+}
