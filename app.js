@@ -32,6 +32,7 @@ MongoClient.connect(url, function(err, db) {
     process.on('uncaughtException', exitHandler.bind(null, {exit:true, db}));
 
     server.start((err) => {
+
         if (err) {
             throw err;
         }
