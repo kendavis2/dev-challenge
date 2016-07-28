@@ -17,6 +17,14 @@ server.connection({
 // routes
 server.route({
     method: 'GET',
+    path: '/',
+    handler: function (request, reply) {
+        reply.file('/index.html');
+    }
+});
+
+server.route({
+    method: 'GET',
     path:'/hello', 
     handler: function (request, reply) {
         return reply('hello world!');
