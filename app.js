@@ -21,7 +21,7 @@ server.route({
 });
 
 // Start the server
-server.start(function(err) {
+server.start((err) => {
     console.log("still trying...");
     if (err) {
         throw err;
