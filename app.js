@@ -2,7 +2,7 @@
 
 const Hapi = require('hapi');
 
-console.log("starting");
+console.log("trying...");
 
 // Create a server with a host and port
 const server = new Hapi.Server();
@@ -22,8 +22,8 @@ server.route({
 });
 
 // Start the server
-server.start((err) => {
-    console.log("trying to start");
+server.start(function(err) {
+    console.log("still trying...");
     if (err) {
         throw err;
     }
