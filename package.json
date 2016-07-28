@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/kendavis2/dev-challenge#readme",
   "dependencies": {
-    "hapi": "^13.5.0"
+    "bluebird": "^3.4.1",
+    "hapi": "^13.5.0",
+    "mongodb": "^2.2.5"
   }
 }
